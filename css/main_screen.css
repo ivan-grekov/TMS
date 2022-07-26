@@ -1,0 +1,53 @@
+.main_screen {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_title {
+  max-width: 90%;
+  font-size: 4.5rem;
+  text-align: center;
+  margin: auto;
+  color: #454545;
+  mix-blend-mode: overlay;
+}
+
+.btn {
+  display: block;
+  width: 18em;
+  height: 3em;
+  margin: 12rem auto 0;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 5rem;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.2s;
+  opacity: 0.8;
+
+  animation-name: btn;
+  animation-duration: 3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+}

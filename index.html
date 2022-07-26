@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Logo will help you make your best website and application"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./js/script.js"></script>
+    <title>LOGO</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_wrapper">
+          <h1 class="header_logo">Logo</h1>
+          <nav class="header_nav">
+            <ul class="header_nav_list">
+              <li class="header_nav-item">
+                <a href="#section__main">Главное</a>
+              </li>
+              <li class="header_nav-item">
+                <a href="#section__about">О нас</a>
+              </li>
+              <li class="header_nav-item">
+                <a href="#section__team">Команда</a>
+              </li>
+              <li class="header_nav-item">
+                <a href="#">Тарифы</a>
+              </li>
+              <li class="header_nav-item">
+                <a href="#">Технологии</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main_screen" id="section__main">
+      <div class="container">
+        <div class="wrapper">
+          <h1 class="main_title">
+            Делаем сайты и приложения для удовольствия и работы
+          </h1>
+          <button class="btn">Узнать подробнее</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="section__about">
+      <div class="container">
+        <div class="about_wrap">
+          <div class="about_wrap-img">
+            <img src="./images/about_us.avif" alt="about-us" />
+          </div>
+          <div class="about_wrap-text">
+            <h2 class="title" id="about-title">Что мы предлагаем</h2>
+            <div class="about_wrap-description">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                velit, distinctio unde corporis natus, culpa aliquam qui harum
+                eius voluptatum esse deleniti error id blanditiis ut eum, ipsum
+                tempora obcaecati!
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolorem rem molestias voluptas ad, incidunt fugiat cupiditate
+                aspernatur quia dolorum at distinctio veniam ratione dignissimos
+                architecto dicta dolore. Similique, consectetur. Possimus.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Perspiciatis cum quasi tenetur consequatur, eaque eius quas
+                libero atque ad optio. Temporibus consequuntur quo cupiditate
+                totam saepe eveniet. Saepe, ex excepturi!
+              </p>
+            </div>
+            <a href="#">Узнать больше</a>
+          </div>
+        </div>
+        <div class="about_social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </section>
+    <section class="section_team" id="section__team">
+      <div class="container">
+        <h2 class="title">Команда</h2>
+        <div class="team_wrap">
+          <ul class="team_wrap-cards">
+            <li class="team_card">
+              <h3 class="team_card-title">PM</h3>
+              <div class="team_wrap-img">
+                <img
+                  src="./images/customer-3.jpg"
+                  alt="team-foto-img"
+                  class="team-foto"
+                />
+              </div>
+              <p class="team_card_fullName">Дарья Мороз</p>
+              <p class="team_card-description">
+                Этот человек, который отвечает за все процессы ведения и
+                успешного завершения проекта. Глава нашей команды
+              </p>
+            </li>
+            <li class="team_card">
+              <h3 class="team_card-title">Dev</h3>
+              <div class="team_wrap-img">
+                <img
+                  src="./images/customer-1.jpg"
+                  alt="team-foto-img"
+                  class="team-foto"
+                />
+              </div>
+              <p class="team_card_fullName">Евгения Котина</p>
+              <p class="team_card-description">
+                Занимается разработкой костяка веб-страницы, подключает скрипты,
+                определяет элементы сайта. Создает сервисы, полностью
+                покрывающие требования, в нашей компании.
+              </p>
+            </li>
+            <li class="team_card">
+              <h3 class="team_card-title">UX/UI</h3>
+              <div class="team_wrap-img">
+                <img
+                  src="./images/customer-6.jpg"
+                  alt="team-foto-img"
+                  class="team-foto"
+                />
+              </div>
+              <p class="team_card_fullName">Александра Дым</p>
+              <p class="team_card-description">
+                Отвечает за то, как интерфейс выглядит и работает. На сколько
+                продуманной будет навигация по вашему продукту и как быстро
+                потенциальный заказчик сможет принять решение.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p class="modal-title">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>

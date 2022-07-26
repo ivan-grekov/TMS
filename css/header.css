@@ -1,0 +1,46 @@
+header {
+  background-color: #fff;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.header_logo:hover {
+  cursor: pointer;
+  color: coral;
+}
+
+.header_nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.header_nav-item {
+  margin-left: 4rem;
+}
+
+.header_nav-item a {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: coral;
+  transition: 0.3s;
+}
+
+.header_nav-item a:hover {
+  color: rgb(192, 94, 59);
+}
