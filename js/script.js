@@ -32,7 +32,7 @@ allLinks.forEach((link) => {
 // !MODAL WINDOW
 
 const openModalWindow = function (e) {
-  e.preventDefault();
+  // e.preventDefault();
   disableScrollBar();
   modalWindowEl.classList.remove("hidden");
   overlayEl.classList.remove("hidden");
