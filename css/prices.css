@@ -5,6 +5,7 @@
 
 .check-icon {
   font-size: 1.8rem;
+  color: coral;
 }
 
 .services-list {
@@ -24,6 +25,7 @@
 
 .prices_card {
   min-height: 50rem;
+  min-width: 28rem;
 }
 
 .prices_card-cost {
