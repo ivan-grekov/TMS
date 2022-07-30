@@ -1,19 +1,26 @@
-.section_team {
+.section_team,
+.section_prices {
   padding: 1.8rem 0;
 }
 
-.section_team .title {
+.section_team .title,
+.section_prices .title {
   text-align: center;
 }
 
-.team_wrap {
+.team_wrap,
+.prices_wrap,
+.footer_wrap {
+  padding-bottom: 6.8rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgb(229 229 229);
 }
 
-.team_wrap-cards {
+.team_wrap-cards,
+.prices_wrap-cards {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -21,7 +28,8 @@
   margin-top: 6.4rem;
 }
 
-.team_card {
+.team_card,
+.prices_card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -35,12 +43,14 @@
   transition: all 0.4s;
 }
 
-.team_card:hover {
+.team_card:hover,
+.prices_card:hover {
   box-shadow: 0 3.2rem 6.4rem rgba(255, 127, 80, 0.2);
   transform: translateY(-1.2rem);
 }
 
-.team_card-title {
+.team_card-title,
+.prices_card-title {
   font-size: 1.8rem;
   font-weight: 600;
   width: 100%;

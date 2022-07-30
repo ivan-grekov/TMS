@@ -3,6 +3,8 @@
 @import url(./main_screen.css);
 @import url(./about.css);
 @import url(./team.css);
+@import url(./prices.css);
+@import url(./footer.css);
 
 * {
   padding: 0;
@@ -59,7 +61,7 @@ html {
 }
 
 .modal {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -82,9 +84,29 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 300rem;
+  width: 100vw;
+  height: 500rem;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+.select-button {
+  display: block;
+  width: 7em;
+  height: 2em;
+  background: none;
+  border-radius: 5rem;
+  border: 2px solid coral;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.2s;
+  opacity: 0.8;
+  color: coral;
+}
+
+.select-button:hover {
+  background-color: coral;
+  box-shadow: inset 0 0 0 3px #fff;
+  color: white;
 }

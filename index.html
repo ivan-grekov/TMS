@@ -9,10 +9,16 @@
       content="Logo will help you make your best website and application"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/icons8-исходный-код-96.png"
+      type="image/x-icon"
+    />
     <script defer src="./js/script.js"></script>
     <title>LOGO</title>
   </head>
   <body>
+    <!-- !Start header -->
     <header class="header">
       <div class="container">
         <div class="header_wrapper">
@@ -29,7 +35,7 @@
                 <a href="#section__team">Команда</a>
               </li>
               <li class="header_nav-item">
-                <a href="#">Тарифы</a>
+                <a href="#section__prices">Тарифы</a>
               </li>
               <li class="header_nav-item">
                 <a href="#">Технологии</a>
@@ -39,6 +45,9 @@
         </div>
       </div>
     </header>
+    <!-- !End header -->
+
+    <!-- !Start mainScreen -->
     <section class="main_screen" id="section__main">
       <div class="container">
         <div class="wrapper">
@@ -49,6 +58,9 @@
         </div>
       </div>
     </section>
+    <!-- !End mainScreen -->
+
+    <!-- !Start about -->
     <section class="about" id="section__about">
       <div class="container">
         <div class="about_wrap">
@@ -87,6 +99,9 @@
         </div>
       </div>
     </section>
+    <!-- !End about -->
+
+    <!-- !Start team -->
     <section class="section_team" id="section__team">
       <div class="container">
         <h2 class="title">Команда</h2>
@@ -143,6 +158,46 @@
         </div>
       </div>
     </section>
+    <!-- !End team -->
+
+    <!-- !Start prices-->
+    <section class="section_prices" id="section__prices">
+      <div class="container">
+        <h2 class="title">Тарифы</h2>
+        <div class="prices_wrap">
+          <ul class="prices_wrap-cards"></ul>
+        </div>
+      </div>
+    </section>
+    <!-- !End prices -->
+
+    <!-- !Start footer -->
+    <footer class="section_footer">
+      <div class="container">
+        <div class="footer_wrap">
+          <div class="about_social footer">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="footer_rights">
+            <span class="footer_rights-text"
+              >Все права защищены <span class="rights-year"></span
+            ></span>
+          </div>
+          <div class="phone-numbers">
+            <a href="tel:+37529111222333" class="phone-number_item"
+              >+375(29)111-222-333</a
+            >
+            <a href="tel:+37529111222333" class="phone-number_item"
+              >+375(29)111-222-333</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- !End footer -->
+
     <div class="modal hidden">
       <button class="close-modal">&times;</button>
       <h1>I'm a modal window 😍</h1>
