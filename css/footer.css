@@ -1,0 +1,27 @@
+.about_social.footer * {
+  font-size: 2.2rem;
+}
+
+.footer_wrap {
+  padding-bottom: 0;
+  align-items: flex-end;
+}
+
+.footer_rights {
+  align-self: center;
+}
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number_item {
+  color: black;
+  letter-spacing: 1.1px;
+  transition: all 0.3s;
+}
+
+.phone-number_item:hover {
+  color: #ff7f50;
+}

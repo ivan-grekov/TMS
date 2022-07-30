@@ -4,6 +4,7 @@
 @import url(./about.css);
 @import url(./team.css);
 @import url(./prices.css);
+@import url(./footer.css);
 
 * {
   padding: 0;
