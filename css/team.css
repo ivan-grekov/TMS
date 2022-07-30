@@ -9,7 +9,8 @@
 }
 
 .team_wrap,
-.prices_wrap {
+.prices_wrap,
+.footer_wrap {
   padding-bottom: 6.8rem;
   display: flex;
   flex-wrap: wrap;
