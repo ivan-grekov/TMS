@@ -188,3 +188,13 @@ selectCoastElements.forEach((coastEl) => {
     );
   }
 });
+
+// ! Add currently year
+
+const currentYearEl = document.querySelector(".rights-year");
+
+const date = new Date();
+const year = date.getFullYear();
+let strOfCurrentYear = `${year} &copy;`;
+
+currentYearEl.innerHTML = strOfCurrentYear;
